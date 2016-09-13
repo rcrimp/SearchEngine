@@ -142,7 +142,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Util\timer.cpp" />
     <ClCompile Include="parser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Util\timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
